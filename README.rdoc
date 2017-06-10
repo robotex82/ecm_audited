@@ -1,0 +1,21 @@
+= Ecm::Audited
+
+This project rocks and uses MIT-LICENSE.
+
+ecm_audited:
+[x] Adds audited to configured models
+
+ecm_audited_backend:
+[x] adds menu entry in show views of audited models
+[x] adds route to <audited>/1/audit_log
+[x] adds route to <audited>/a/versions/<version>
+[-] adds back and forward buttons to show views of audited models
+[x] shows revision date of versions
+[x] searches for revisions by date
+
+[x] needs to know in view, if it has to add audited features (per resource controller)
+[x] needs to know in routing, if a resource is audited
+
+itsf_backend:
+[x] needs interface in views, to add links with dynamic content to show views of resources, based on resource/resource_class properties
+[x] needs an interface in routes to add routes to resources.

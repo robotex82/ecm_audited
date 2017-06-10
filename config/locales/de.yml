@@ -1,0 +1,21 @@
+de:
+  activerecord:
+    models:
+      audited/audit:
+        one: 'Audit Log'
+        other: 'Audit Logs'
+    attributes:
+      audited/audit:
+        auditable: Subjekt
+        associated: Verknüpfung
+        user: Benutzer
+        username: Benutzername
+        action: Aktion
+        audited_changes: Änderungen
+        version: Version
+        comment: Kommentar
+        remote_address: IP Adresse
+        request_uuid: Request UUID
+        created_at: Erstellt am
+  routes:
+    ecm_audited_backend: audits
